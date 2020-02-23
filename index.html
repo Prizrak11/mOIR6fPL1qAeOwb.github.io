@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!--! Options -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>O&P</title>
+
+	<!--! External -->
+	<link rel="shortcut icon" href="Image/icon.ico">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/1aac0d2a37.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+	<!--! Banner -->
+	<div class="banner">
+		<h1 class="title">O&P Risk Advisors</h1>
+		<h2 class="subtitle">Referenciación</h2>
+	</div>
+
+	<!--! Data Box -->
+	<fieldset class="dat-box">
+		<legend class="dat-title">Datos</legend>
+		<input type="text" class="text dat" placeholder="Nombres y Apellidos">
+		<input type="text" class="text dat" placeholder="Cedula">
+		<input type="date" class="dat">
+	</fieldset>
+
+	<!--! List Ref -->
+	<!-- 	<fieldset class="dat-box">
+	<legend class="dat-title">Consultas</legend> -->
+	<table class="group">
+		<tr>
+			<td>
+				<a href="https://srvpsi.policia.gov.co/PSC/frm_cnp_consulta.aspx" target="_blank">
+					<div class="icon">
+						<i class="fab fa-product-hunt img"></i>
+						<p class="txt">Policia</p>
+					</div>
+				</a>
+			</td>
+			<td>
+				<a href="https://antecedentes.policia.gov.co:7005/WebJudicial/" target="_blank">
+					<div class="icon">
+						<i class="fab fa-product-hunt img"></i>
+						<p class="txt">Ponal</p>
+					</div>
+				</a>
+			</td>
+			<td>
+				<a href="https://www.expedientes.co" target="_blank">
+					<div class="icon">
+						<i class="fas fa-gavel img"></i>
+						<p class="txt">Judicial</p>
+					</div>
+				</a>
+			</td>
+			<td>
+				<a href="https://www.procuraduria.gov.co/CertWEB/Certificado.aspx?tpo=2" target="_blank">
+					<div class="icon">
+						<i class="fas fa-atlas img"></i>
+						<p class="txt">Procuraduria</p>
+					</div>
+				</a>
+			</td>
+			<td>
+				<a href="https://www.contraloria.gov.co/web/guest/control-fiscal/responsabilidad-fiscal/control-fiscal/responsabilidad-fiscal/certificado-de-antecedentes-fiscales/persona-natural"
+					target="_blank">
+					<div class="icon">
+						<i class="far fa-dot-circle img"></i>
+						<p class="txt">Contraloria</p>
+					</div>
+				</a>
+			</td>
+			<td>
+				<a href="https://www.interpol.int/es/Como-trabajamos/Notificaciones/Ver-las-notificaciones-rojas"
+					target="_blank">
+					<div class="icon">
+						<i class="fas fa-globe-europe img"></i>
+						<p class="txt">Interpol</p>
+					</div>
+				</a>
+			</td>
+			<td>
+				<a href="https://www.fbi.gov/wanted/fugitives" target="_blank">
+					<div class="icon">
+						<i class="fas fa-user-secret img"></i>
+						<p class="txt">FBI</p>
+					</div>
+				</a>
+			</td>
+		</tr>
+		<tr class="list">
+			<td>
+				<a href="https://sanctionssearch.ofac.treas.gov/" target="_blank">
+					<div class="icon">
+						<i class="fas fa-shield-alt img"></i>
+						<p class="txt">OFAC</p>
+					</div>
+				</a>
+			</td>
+			<td>
+				<a href="https://www.dea.gov/fugitives/all" target="_blank">
+					<div class="icon">
+						<i class="fas fa-fingerprint img"></i>
+						<p class="txt">DEA</p>
+					</div>
+				</a>
+			</td>
+			<td>
+				<a href="https://www.libretamilitar.mil.co/Modules/Consult/MilitaryCardCertificate" target="_blank">
+					<div class="icon">
+						<i class="fas fa-id-card img"></i>
+						<p class="txt">Libreta</p>
+					</div>
+				</a>
+			</td>
+			<td>
+				<a href="https://www.runt.com.co/consultaCiudadana/#/consultaPersona" target="_blank">
+					<div class="icon">
+						<i class="fas fa-car-side img"></i>
+						<p class="txt">Runt</p>
+					</div>
+				</a>
+			</td>
+			<td>
+				<a href="http://certificados.sena.edu.co/" target="_blank">
+					<div class="icon">
+						<i class="fas fa-graduation-cap img"></i>
+						<p class="txt">Sena</p>
+					</div>
+				</a>
+			</td>
+			<td>
+				<a href="https://ruaf.sispro.gov.co/Filtro.aspx " target="_blank">
+					<div class="icon">
+						<i class="fas fa-id-badge img"></i>
+						<p class="txt">Ruaf</p>
+					</div>
+				</a>
+			</td>
+			<td>
+				<a href="https://muisca.dian.gov.co/WebRutMuisca/DefConsultaEstadoRUT.faces" target="_blank">
+					<div class="icon">
+						<i class="fas fa-money-check img"></i>
+						<p class="txt">Rut</p>
+					</div>
+				</a>
+			</td>
+		</tr>
+	</table>
+	<!-- </fieldset> -->
+
+	<!--! Special Ref -->
+	<fieldset class="dat-box special">
+		<legend class="dat-title">Datos Especiales</legend>
+		<select class="dat selector" id="select">
+			<option disabled selected>--Seleccionar--</option>
+			<option value="ing">Ingenieria</option>
+			<option value="med">Medicina</option>
+			<option value="con">Contador</option>
+			<option value="abo">Abogado</option>
+			<option value="vig">Vigilancia</option>
+			<option value="ele">Ingeniero Electrico / Mecanico / Tecnico</option>
+			<option value="ar">Arquitectos</option>
+			<option value="adm">Admnistrador Empresas</option>
+			<option value="conte">CONTE</option>
+		</select>
+		<button class="submit" id="submit-select"><i class="fas fa-arrow-right"></i></button>
+	</fieldset>
+
+	<!--! Footer -->
+	<!-- <footer class="footer">
+		<img src="Image/oyp_logo.png" class="foot-icon">
+		<p class="foot-content"> &copy;2019 O&P Risk Advisors </p>
+	</footer> -->
+
+	<!--!  Scripts  -->
+	<script src="code.js"></script>
+
+</body>
+
+</html>
